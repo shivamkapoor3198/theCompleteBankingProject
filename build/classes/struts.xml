@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+
+<struts>
+
+<package name="default" extends="struts-default">
+
+<action name="signup" class="usercheck" method="insert">
+<result name="inserted">signedup.jsp</result>
+
+</action>
+<action name="login" class="usercheck" method="login">
+<result name="loggedin">loggedin.jsp</result>
+</action>
+<action name="diplay" class="usercheck" method="display">
+<result name="displayrun">display.jsp</result>
+</action>
+</package>
+</struts>

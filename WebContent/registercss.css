@@ -1,0 +1,87 @@
+body
+{
+	background-image:url("projectback.jpg");
+background-attachment-fixed;
+background-repeat:no-repeat;
+background-size:2730px;
+}
+#indexmenu
+{
+	margin:0px;
+}
+#sitename{
+	background:url("favicon.png") no-repeat;
+	background-size:60px 60px;
+	text-align:right;
+	font-size:1rem;
+	background-position: 0px 10px;
+	font-family: 'Josefin Slab', serif;; /*'Marck Script', cursive*/
+	border-radius:60px;
+	background-color:#032745; /*7a0000*/
+	color:snow;
+	padding: 0px 50px;
+	font-size:60px;
+	float:left;
+	transform: translateX(0%);
+	transition-duration: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: snow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+}
+#footer
+{
+background-color:black;
+color:snow;	
+}
+
+#marque
+{
+	background-color:green;
+	color:yellow;
+}
+
+
+
+
+
+
+.registertable
+{
+	background-color:gainsboro;
+}
+.registerform
+{
+border:2px solid lawngreen;
+
+} 
+#heading
+{
+	text-align:center;
+	font-family:Arvo;
+	color:purple;
+}
